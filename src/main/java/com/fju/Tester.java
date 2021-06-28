@@ -24,6 +24,8 @@ public class Tester {
             Scanner scanner = new Scanner(System.in);
             String s = scanner.next();
 
+
+
             n = Integer.parseInt(s);
             System.out.println("Total: " + sum);
         } while (n != 0);

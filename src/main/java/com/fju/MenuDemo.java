@@ -11,4 +11,11 @@ public class MenuDemo {
     private JTextField FrenchFries;
     private JTextField Drinks;
     private JTextField IceCream;
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        frame.setContentPane(new MenuDemo().main);
+        frame.setSize(600, 400);
+        frame.setVisible(true);
+    }
 }

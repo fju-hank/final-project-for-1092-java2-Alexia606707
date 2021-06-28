@@ -24,7 +24,12 @@ public class Tester {
             Scanner scanner = new Scanner(System.in);
             String s = scanner.next();
 
-
+            for (Menu menu: menus) {
+                if (menu.validate(s)) {
+                    sum += menu.getPrice();
+                    System.out.println(menu.getName() + "\tamount: " + sum);
+                }
+            }
 
             n = Integer.parseInt(s);
             System.out.println("Total: " + sum);

@@ -23,16 +23,16 @@ public class Tester {
             System.out.println("Please enter the meals: ");
             Scanner scanner = new Scanner(System.in);
             String s = scanner.next();
+            n = Integer.parseInt(s);
 
             for (Menu menu: menus) {
-                if (menu.validate(s)) {
+                if (menu.validate(n)) {
                     sum += menu.getPrice();
-                    System.out.println(menu.getName() + "\tamount: " + sum);
+                    System.out.println(menu.getName() + " $" + menu.getPrice() + "\tTotal: " + sum);
                 }
             }
-
-            n = Integer.parseInt(s);
-            System.out.println("Total: " + sum);
         } while (n != 0);
+        System.out.println("Total: " + sum);
+        System.out.println("Thank you! Have a good day!");
     }
 }

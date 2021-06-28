@@ -2,7 +2,7 @@ package com.fju;
 
 public class IceCream extends Menu{
     public IceCream() {
-        id = "d";
+        id = 4;
     }
 
     @Override

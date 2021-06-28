@@ -2,7 +2,7 @@ package com.fju;
 
 public class Hamburger extends Menu{
     public Hamburger() {
-        id = "a";
+        id = 1;
     }
 
     @Override

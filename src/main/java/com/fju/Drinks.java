@@ -2,7 +2,7 @@ package com.fju;
 
 public class Drinks extends Menu{
     public Drinks() {
-        id = "c";
+        id = 3;
     }
 
     @Override

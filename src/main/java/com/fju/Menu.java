@@ -1,10 +1,10 @@
 package com.fju;
 
 public abstract class Menu {
-    String id;
+    int id;
 
-    public boolean validate(String meal) {
-        return meal.equals(id);
+    public boolean validate(int meal) {
+        return meal == id;
     }
 
     public abstract String getName();

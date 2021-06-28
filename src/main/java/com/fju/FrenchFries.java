@@ -2,7 +2,7 @@ package com.fju;
 
 public class FrenchFries extends Menu{
     public FrenchFries() {
-        id = "b";
+        id = 2;
     }
 
     @Override

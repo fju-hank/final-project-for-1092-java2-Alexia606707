@@ -1,14 +1,14 @@
+com/fju/MenuDemo.java
+ com.fju.MenuDemo
 com/fju/Hamburger.java
  com.fju.Hamburger
 com/fju/Drinks.java
  com.fju.Drinks
-com/fju/MenuDemo.java
- com.fju.MenuDemo
+com/fju/IceCream.java
+ com.fju.IceCream
 com/fju/Menu.java
  com.fju.Menu
 com/fju/FrenchFries.java
  com.fju.FrenchFries
-com/fju/IceCream.java
- com.fju.IceCream
 com/fju/Tester.java
  com.fju.Tester
